@@ -42,7 +42,7 @@ Adjust the amount of fertilizer created while crafting.  More options for altern
 
 [b][size=4]Source[/size][/b]
 - I do not guarantee any future updates, compatibility, etc.
-- Source code lives on [url=https://github.com/UnkLegacy/Adjustable-Fertilizer]GitHub[/url]
+- Source code lives on [url=https://github.com/WhittenJ/Adjustable-Fertilizer]GitHub[/url]
 
 
 [b][size=4]My other mods[/size][/b]
