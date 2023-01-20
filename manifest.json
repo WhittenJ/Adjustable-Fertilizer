@@ -1,0 +1,11 @@
+{
+   "Name": "Adjustable Fertilizer",
+   "Author": "UnknownLegacy",
+   "Version": "1.1.0",
+   "Description": "Allows adjustments to the fertilizer recipes.",
+   "UniqueID": "UnknownLegacy.AdjustableFertilizer",
+   "UpdateKeys": [ "Nexus:7982" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}

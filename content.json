@@ -1,0 +1,167 @@
+﻿{
+	"Format": "1.20.0",
+	"ConfigSchema": {
+		"NumBasicFert": {
+			"Default": "1",
+			"Description": "The number of Basic Fertilizer created when crafting."
+		},
+		"NumQualityFert": {
+			"Default": "1",
+			"Description": "The number of Quality Fertilizer created when crafting."
+		},
+		"NumDeluxeFert": {
+			"Default": "5",
+			"Description": "The number of Deluxe Fertilizer created when crafting."
+		},
+		"NumSpeedGro": {
+			"Default": "5",
+			"Description": "The number of Speed-Gro created when crafting."
+		},
+		"NumDeluxeSpeed": {
+			"Default": "5",
+			"Description": "The number of Deluxe Speed-Gro created when crafting."
+		},
+		"NumHyperSpeed": {
+			"Default": "1",
+			"Description": "The number of Hyper Speed-Gro created when crafting."
+		},
+		"NumBasicRetaining": {
+			"Default": "1",
+			"Description": "The number of Basic Retaining Soil created when crafting."
+		},
+		"NumQualityRetaining": {
+			"Default": "2",
+			"Description": "The number of Quality Retaining Soil created when crafting."
+		},
+		"NumDeluxeRetaining": {
+			"Default": "1",
+			"Description": "The number of Deluxe Retaining Soil created when crafting."
+		},
+		"NumTreeFert": {
+			"Default": "1",
+			"Description": "The number of Tree Fertilizer created when crafting."
+		},
+	},
+	"Changes": [
+	{	  	
+		"Action": "EditData",
+		"Target": "Data/CraftingRecipes",
+		"Fields": {
+			"Basic Fertilizer": { 
+						0: "92 2",
+						1: "Field",
+						2: "368 {{NumBasicFert}}",
+						3: "false",
+						4: "s Farming 1" },
+		},
+	},
+	{	  	
+		"Action": "EditData",
+		"Target": "Data/CraftingRecipes",
+		"Fields": {
+			"Quality Fertilizer": { 
+						0: "92 2 -4 1",
+						1: "Field",
+						2: "369 {{NumQualityFert}}",
+						3: "false",
+						4: "s Farming 9" },
+		},
+	},
+	{	  	
+		"Action": "EditData",
+		"Target": "Data/CraftingRecipes",
+		"Fields": {
+			"Deluxe Fertilizer": { 
+						0: "337 1 92 40",
+						1: "Field",
+						2: "919 {{NumDeluxeFert}}",
+						3: "false",
+						4: "null" },
+		},
+	},
+	{	  	
+		"Action": "EditData",
+		"Target": "Data/CraftingRecipes",
+		"Fields": {
+			"Speed-Gro": { 
+						0: "726 1 372 1",
+						1: "Field",
+						2: "465 {{NumSpeedGro}}",
+						3: "false",
+						4: "s Farming 3" },
+		},
+	},
+	{	  	
+		"Action": "EditData",
+		"Target": "Data/CraftingRecipes",
+		"Fields": {
+			"Deluxe Speed-Gro": { 
+						0: "725 1 393 1",
+						1: "Field",
+						2: "466 {{NumDeluxeSpeed}}",
+						3: "false",
+						4: "s Farming 9" },
+		},
+	},
+	{	  	
+		"Action": "EditData",
+		"Target": "Data/CraftingRecipes",
+		"Fields": {
+			"Hyper Speed-Gro": { 
+						0: "909 1 881 3 768 1",
+						1: "Field",
+						2: "918 {{NumHyperSpeed}}",
+						3: "false",
+						4: "null" },
+		},
+	},
+	{	  	
+		"Action": "EditData",
+		"Target": "Data/CraftingRecipes",
+		"Fields": {
+			"Basic Retaining Soil": { 
+						0: "390 2",
+						1: "Field",
+						2: "370 {{NumBasicRetaining}}",
+						3: "false",
+						4: "s Farming 4" },
+		},
+	},
+	{	  	
+		"Action": "EditData",
+		"Target": "Data/CraftingRecipes",
+		"Fields": {
+			"Quality Retaining Soil": { 
+						0: "390 3 330 1",
+						1: "Field",
+						2: "371 {{NumQualityRetaining}}",
+						3: "false",
+						4: "s Farming 7" },
+		},
+	},
+	{	  	
+		"Action": "EditData",
+		"Target": "Data/CraftingRecipes",
+		"Fields": {
+			"Deluxe Retaining Soil": { 
+						0: "390 5 771 3 330 1",
+						1: "Field",
+						2: "920 {{NumDeluxeRetaining}}",
+						3: "false",
+						4: "null" },
+		},
+	},
+	{	  	
+		"Action": "EditData",
+		"Target": "Data/CraftingRecipes",
+		"Fields": {
+			"Tree Fertilizer": { 
+						0: "771 5 390 5",
+						1: "Field",
+						2: "805 {{NumTreeFert}}",
+						3: "false",
+						4: "s Foraging 7" },
+		},
+	},
+	]
+}
