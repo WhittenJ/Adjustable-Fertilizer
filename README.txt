@@ -43,7 +43,7 @@ Adjust the amount of fertilizer created while crafting.  More options for altern
 
 ### Source
 - I do not guarantee any future updates, compatibility, etc.
-- Source code lives on [GitHub](https://github.com/UnkLegacy/Adjustable-Fertilizer)
+- Source code lives on [GitHub](https://github.com/WhittenJ/Adjustable-Fertilizer)
 
 ### My other mods
 - [Sprinkler Updater](https://www.nexusmods.com/stardewvalley/mods/7906)
